@@ -1,0 +1,23 @@
+{
+  "name": "PDF_Practice",
+  "version": "1.0.0",
+  "description": "Practicing with the PDFKit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jon-D-Smith/PDF_Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jon-D-Smith/PDF_Practice/issues"
+  },
+  "homepage": "https://github.com/Jon-D-Smith/PDF_Practice#readme",
+  "dependencies": {
+    "pdfkit": "^0.12.1"
+  }
+}
