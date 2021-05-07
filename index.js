@@ -8,13 +8,13 @@ doc.pipe(fs.createWriteStream('output.pdf'));
 
 doc
     .fontSize(25)
-    .text('Dungeons and Dragons', 10, 50);
+    .text('Dungeons and Dragons', 10, 10);
 
 
 doc
     .initForm()
     .fontSize(12)
-    .text("Character Name:", 100, 120)
-    .formText("name", 100, 90, 200, 30)
+    .text("Character Name:", 100, 30)
+    .formText("name", 100, 40, 200, 30)
 
 doc.end();
