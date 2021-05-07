@@ -39,7 +39,6 @@ doc
 
 //Character Stats
 doc
-    
     .fontSize(8)
     //Strength
     .text("Strength", 45, 100)
@@ -61,7 +60,11 @@ doc
     .formText('Charisma', 40, 410,40,40)
 
 
-
-
+doc
+    .fontSize(8)
+    //Inspiration
+    .text("Inspiration", 175, 110)
+    .formAnnotation("Inspiration","combo", 120, 110, 40,40, {select: ["Yes", "No"]} )
+    
 
 doc.end();
