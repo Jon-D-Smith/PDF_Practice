@@ -60,11 +60,23 @@ doc
     .formText('Charisma', 40, 410,40,40)
 
 
+    const opts = {
+        backgroundColor: 'black',
+        
+      };
+      
 doc
     .fontSize(8)
     //Inspiration
-    .text("Inspiration", 175, 110)
-    .formAnnotation("Inspiration","combo", 120, 110, 40,40, {select: ["Yes", "No"]} )
+    .text("Inspiration", 140, 110)   
+    .formCheckbox('Checked', 120, 110, 10,10, opts)
+    //Prof Bonus
+    .text("Proficency Bonus", 140, 140,{width: 100})   
+    .formText('Prof Bonus', 120, 130, 20, 20)
+
+   
     
+
+
 
 doc.end();
