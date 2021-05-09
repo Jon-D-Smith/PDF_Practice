@@ -80,9 +80,35 @@ doc
     .text("Proficency Bonus", 140, 140,{width: 100})   
     .formText('Prof Bonus', 120, 130, 20, 20)
 
-   
-    
-
+//Saving throws
+doc
+      .fontSize(8)
+      //Strength Save
+      .text("Strength", 160, 160)
+      .formText("Strength-save", 140, 160, 20,10)
+      .formCheckbox('strength-save-check', 120, 160, 10,10, opts)
+      //Dex Save
+      .text("Dexterity", 160, 175)
+      .formText("Dexterity-save", 140, 175, 20,10)
+      .formCheckbox('Dexterity-save-check', 120, 175, 10,10, opts)
+      //Con Save
+      .text("Constitution", 160, 190)
+      .formText("Constitution-save", 140, 190, 20,10)
+      .formCheckbox('Constitution-save-check', 120, 190, 10,10, opts)
+      //Intelligence Save
+      .text("Intelligence", 160, 205)
+      .formText("Intelligence-save", 140, 205, 20,10)
+      .formCheckbox('Intelligence-save-check', 120, 205, 10,10, opts)
+      //Wisdom Save
+      .text("Wisdom", 160, 220)
+      .formText("Wisdom-save", 140, 220, 20,10)
+      .formCheckbox('Wisdom-save-check', 120, 220, 10,10, opts)
+      //Charisma Save
+      .text("Charisma", 160, 235)
+      .formText("Charisma-save", 140, 235, 20,10)
+      .formCheckbox('Charisma-save-check', 120, 235, 10,10, opts)
+      //Saving throws
+      .text("Savinig Throws", 140, 250)
 
 
 doc.end();
