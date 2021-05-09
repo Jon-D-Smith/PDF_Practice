@@ -42,22 +42,28 @@ doc
     .fontSize(8)
     //Strength
     .text("Strength", 45, 100)
-    .formText('Strength', 40, 110,40,40)
+    .formText('Strength', 40, 110,40,40, {align:'center'})
+    .formText('Strength-mod', 55, 150, 10, 10)
     //Dexterity
     .text("Dexterity", 45, 160)
-    .formText('Dexterity', 40, 170,40,40)
+    .formText('Dexterity', 40, 170,40,40, {align:'center'})
+    .formText('Dext-mod', 55, 210, 10, 10)
     //Constitution
     .text("Constitution", 45, 220)
-    .formText('Constitution', 40, 230,40,40)
+    .formText('Constitution', 40, 230,40,40, {align:'center'})
+    .formText('Con-mod', 55, 270,10, 10)
     //Intelligence
     .text("Intelligence", 45, 280)
-    .formText('Intelligence', 40, 290,40,40)
+    .formText('Intelligence', 40, 290,40,40, {align:'center'})
+    .formText('Intelligence-mod', 55, 330, 10, 10)
     //Wisdom
     .text("Wisdom", 45, 340)
-    .formText('Wisdom', 40, 350,40,40)
+    .formText('Wisdom', 40, 350,40,40, {align:'center'})
+    .formText('wisdom-mod', 55, 390, 10, 10)
     //Charisma
     .text("Charisma", 45, 400)
-    .formText('Charisma', 40, 410,40,40)
+    .formText('Charisma', 40, 410,40,40, {align:'center'})
+    .formText('Charisma-mod', 55, 450, 10, 10)
 
 
     const opts = {
